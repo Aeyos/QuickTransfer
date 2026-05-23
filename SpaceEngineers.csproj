@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Linux path sample:
+    <SpaceEngineers>/home/username/games/steamapps/common/SpaceEngineers/Bin64/</SpaceEngineers>-->
+    <!-- Windows path sample:
+    <SpaceEngineers>D:\SteamLibrary\steamapps\common\SpaceEngineers\Bin64\</SpaceEngineers>-->
+    <!-- ATTENTION: Note that windows uses backslash ('\') but Linux uses regular slash ('/') -->
+    <SpaceEngineers>C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\</SpaceEngineers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sandbox.Common">
+      <HintPath>$(SpaceEngineers)Sandbox.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Sandbox.Game">
+      <HintPath>$(SpaceEngineers)Sandbox.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers">
+      <HintPath>$(SpaceEngineers)SpaceEngineers.exe</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers.Game">
+      <HintPath>$(SpaceEngineers)SpaceEngineers.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers.ObjectBuilders">
+      <HintPath>$(SpaceEngineers)SpaceEngineers.ObjectBuilders.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage">
+      <HintPath>$(SpaceEngineers)VRage.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Game">
+      <HintPath>$(SpaceEngineers)VRage.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Library">
+      <HintPath>$(SpaceEngineers)VRage.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Math">
+      <HintPath>$(SpaceEngineers)VRage.Math.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

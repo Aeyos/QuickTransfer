@@ -1,0 +1,5 @@
+A:\Modding\SpaceEngineers\QuickTransfer\obj\Debug\net6.0\SpaceEngineers.csproj.AssemblyReference.cache
+A:\Modding\SpaceEngineers\QuickTransfer\obj\Debug\net6.0\SpaceEngineers.GeneratedMSBuildEditorConfig.editorconfig
+A:\Modding\SpaceEngineers\QuickTransfer\obj\Debug\net6.0\SpaceEngineers.AssemblyInfoInputs.cache
+A:\Modding\SpaceEngineers\QuickTransfer\obj\Debug\net6.0\SpaceEngineers.AssemblyInfo.cs
+A:\Modding\SpaceEngineers\QuickTransfer\obj\Debug\net6.0\SpaceEngineers.csproj.CoreCompileInputs.cache
